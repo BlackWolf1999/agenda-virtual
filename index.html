@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Agenda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Minha Agenda</h1>
+    <form id="form-agenda">
+  <input type="date" id="data-evento" required>
+  <input type="text" id="descricao-evento" placeholder="Título do evento" required>
+  <textarea id="detalhes-evento" placeholder="Detalhes do evento (opcional)" rows="3"></textarea>
+  <button type="submit">Adicionar Evento</button>
+</form>
+
+
+    <ul id="lista-eventos"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
